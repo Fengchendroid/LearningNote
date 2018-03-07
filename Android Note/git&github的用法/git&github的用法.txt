@@ -1,4 +1,5 @@
 git代码指令
+将本地仓库提交到远程仓库上的相关指令与用法
 git init                 创建本地仓库
 git clone                将远程仓库与本地仓库创建连接(clone后面加远程仓库地址)
 git add .                添加相关文件（可具体添加，也可以全部添加）
@@ -8,3 +9,12 @@ git status               查看文件修改情况
 git diff                 看到更改内容
 git checkout             撤销更改
 git reset                取消添加
+git brauch               查看当前版本库中有哪些分支
+git braush version1.0    创建分支1.0版本
+git checkout version1.0 --> git brauch  可以查看到当前1.0分支
+将远程仓库提交到本地仓库上的相关指令与用法
+git fetch origin master  将远程仓库提交到本地仓库
+git diff  origin/master  查看远程仓库修改内容
+git merge origin/master  将分支上的修改合并到主干上
+git pull  origin master  相当于将fetch与merge命令合并将远程仓库提交到本地仓库
+   
