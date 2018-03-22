@@ -1,4 +1,5 @@
 //charAt()方法运用
+//String类常用的方法，split(),indexOf(),valuneOf(),charAt(),substring(),
 public class TestString{
 	public static void main(String [] args){
 		String s="asdqwdaDweedDrEefEFef3333####3";
